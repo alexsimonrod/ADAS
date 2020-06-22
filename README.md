@@ -4,7 +4,7 @@ la conducción autónoma*, del Doble Grado de Ingeniería Informática y Matemá
 
 La estructura del repositorio es la siguiente:
 
-1. **vod_converter**: programa que permite la conversión entre conjuntos de datos del formato KITTI a formato Pascal VOC y viceversa. En particular, 
+1. **vod_converter**: programa que permite la conversión entre conjuntos de datos, por ejemplo del formato KITTI a formato Pascal VOC y viceversa. En particular, 
 en el TFG hemos usado la conversión KITTI -> Pascal VOC pues es uno de los formatos reconocidos en Openvino.
 2. **deepdrive_dataset_tfrecord**: programa que permite la conversión del formato por defecto de Berkeley Deepdrive Dataset al formato usado
 por tensorflow, es decir, tfrecord.
