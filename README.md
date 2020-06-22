@@ -12,9 +12,9 @@ por tensorflow, es decir, tfrecord.
 4. **/dataset/bdd_to_yolo**: programa que permite la conversión el formato por defecto de Berkeley Deepdrive Dataset al formato usado
 por YOLO.
 5. **/dataset/auxiliares**: conjunto de scripts de caracter general
-    - conteo.sh
-    - aleatorio_test.sh
-    - make_test.sh
-    - make_train.sh
-    - mover_testfiles.sh
+    - conteo.sh: script de bash que cuenta el número de instancias por clase presentes en el conjunto de datos KITTI.
+    - aleatorio_test.sh: crea el conjunto de imágenes usadas para medir el rendimiento en la etapa de inferencia. Estas imágenes son seleccionadas de forma aleatoria, y en concreto, suponen el 20% del conjunto de datos KITTI, aproximadamente 1500 imágenes.
+    - make_test.sh: mueve los archivos pertenecientes al conjunto de test.
+    - make_train.sh mueve los archivos pertenecientes al conjunto de entrenamiento.
+
 
