@@ -1,0 +1,6 @@
+classes= 3 
+train  = /scratch/tfg-adas/datasets/allunited/train_yolo.txt 
+valid  = /scratch/tfg-adas/datasets/allunited/test_yolo.txt 
+names  = /scratch/tfg-adas/datasets/allunited/allunited.names 
+backup = /scratch/tfg-adas/models/yolo_v3/allunited_finetuned
+eval   = coco

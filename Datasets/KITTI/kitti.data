@@ -1,0 +1,5 @@
+classes= 3
+train  = /scratch/tfg-adas/datasets/kitti/voc_converted/train_yolo.txt
+valid  = /scratch/tfg-adas/datasets/kitti/voc_converted/test_yolo.txt
+names  = /scratch/tfg-adas/datasets/kitti/kitti_custom.names
+backup = /scratch/tfg-adas/models/yolo_v3/kitti_finetuned
